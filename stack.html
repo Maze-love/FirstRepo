@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stacking</title>
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.min.css">
+<style>
+        *{
+            /* margin: 0;
+            padding: 0; */
+            box-sizing: border-box;
+            font-family: Courier;
+        }
+        .container{
+            border: 1px solid seagreen;
+            width: 500px;
+            position:fixed;
+            padding: 0.5em 1em;
+        }
+        
+        .button{
+            position: absolute;
+            top:0.3em;
+            right: 0.3em;
+            
+        }
+        .button::before{
+            content: '\00d7';
+            position:absolute;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+        <button class="button">close</button>
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. 
+            Inventore, numquam.</p>
+    </div>
+    
+    <!-- <div class="btn">
+        <span class="fas fa-bars"></span>
+    </div> -->
+
+    <script src="fontawesome-free-6.5.2-web/js/all.min.js"></script>
+</body>
+</html>

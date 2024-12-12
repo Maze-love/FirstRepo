@@ -1,0 +1,16 @@
+@media (width<749px) {
+     .header .navbar{
+        display: none;
+    } 
+    .header .btn{
+        display: inline;
+        font-size: 1.65rem;
+        /* line-height: 3em; */
+    }
+
+}
+@media (min-width:749px){
+    .sidebar{
+        display: none;
+    }
+}
