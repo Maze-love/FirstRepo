@@ -1,11 +1,15 @@
 @media (width<749px) {
-     .header .navbar{
+    .contact .inputBox input, .contact .inputBox textarea{
+        width: 100%;
+    }
+    .header .navbar{
         display: none;
     } 
     .header .btn{
         display: inline;
         font-size: 1.65rem;
     }
+
     .home-content h3{
         font-size: 1.3em;
         font-weight: 700;
@@ -15,10 +19,14 @@
     }
     
     .home-content p{
-        font-size: 0.9em;
+        font-size: 0.5em;
     }
     .home-sci a,.about-text{
         font-size: 0.98em;
+    }
+    .home-sci a{
+        margin-left: 0em;
+        margin-right: 0.01em;
     }
 
     
