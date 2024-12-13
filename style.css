@@ -145,11 +145,11 @@ header{
 }
     
         /*-Introduction section -*/
-.homw{
-    
+.homw{ 
     position: relative;
     justify-content: space-between;
     height: 100vh; 
+    width: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(abstract-5719221_1920.jpg) center/cover no-repeat;
     background-attachment:fixed;
     background-position: center;
@@ -550,7 +550,9 @@ section{
 }
 /*--- for contact page --*/
 .contact{
+    border: 1px solid wheat;
     display: block;
+    width: 100vh;
     padding: 2em;
     margin-top: 1.5em;
     
