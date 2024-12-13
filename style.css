@@ -149,7 +149,7 @@ header{
     position: relative;
     justify-content: space-between;
     height: 100vh; 
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(abstract-5719221_1920.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(img/abstract-5719221_1920.jpg) center/cover no-repeat;
     background-attachment:fixed;
     background-position: center;
     display: flex;
